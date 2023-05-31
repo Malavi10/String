@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+
+    <center>
+        <h1>String Methods</h1>
+        <hr width="200px">
+        <p style="font-size: 20px;">JavaScript strings are for storing and manipulating text. <br> A JavaScript string is zero or more characters written inside quotes. </p>
+    </center>
+
+    <div class="btn">
+        <h2>Length</h2>
+        <p>The length property returns the length of a string:</p>
+        <p id = "len">HELLOWORLD</p>
+        <button id="btn" onclick="lengthFunc()">Length</button>
+    </div>
+
+    <div class="bn">
+        <h2>Slice</h2>
+        <p>Slice extracts a part of a string and returns the extracted part in a new string.</p>
+        <p id = "slicebtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="slicebtnFunc()">Slice</button>
+    </div>
+
+
+    <div class="b">      
+        <h2>Substring</h2>
+        <p>Used to add new items to an array</p>
+        <p id = "substringbtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="substringFunc()">Substring</button>
+    </div>
+
+    <div class="btn">
+        <h2>Substr</h2>
+        <p>Used to add new items to an array</p>
+        <p id = "substrbtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="substrFunc()">Substr</button>        
+    </div>
+
+    <div class="bn">
+        <h2>Replace</h2>
+        <p>Replaces particular word. Case sensitive</p>
+        <p id = "repbtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="repFunc()">Replace</button>        
+    </div>
+
+    <div class="b">
+        <h2>Replace All</h2>
+        <p>Replaces all matching words. Case sensitive</p>
+        <p id = "repallbtn">Apple, Banana, Kiwi, Banana</p>
+        <button id="btn" onclick="repallFunc()">Replace All</button>        
+    </div>
+
+    <div class="btn">
+        <h2>toUpperCase</h2>
+        <p>Changes all letters to Upper case</p>
+        <p id = "ucbtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="ucFunc()">Upper Case</button>        
+    </div>
+
+    <div class="bn">
+        <h2>toLowerCase</h2>
+        <p>Changes all letters to Lower case</p>
+        <p id = "lcbtn">Apple, Banana, Kiwi</p>
+        <button id="btn" onclick="lcFunc()">Lower Case</button>        
+    </div>
+  
+
+
+
+    <script src="code.js"></script>    
+</body>
+</html>
